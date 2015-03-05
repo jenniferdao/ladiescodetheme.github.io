@@ -90,7 +90,7 @@ template {
 }
 
 a {
-	background-color: #FFAAAA;
+	background-color: transparent;
 }
 
 a:active,
@@ -112,13 +112,13 @@ dfn {
 }
 
 h1 {
-	font-size: 2em;
-	margin: 0.67em 0;
+	font-size: 1.5em;
+	margin: 0.50em 0;
 }
 
 mark {
-	background: yellow;
-	color: yellow;
+	background: #ff0;
+	color: #000;
 }
 
 small {
@@ -272,7 +272,7 @@ select,
 textarea {
 	color: black; 
         font-family: 'The Girl Next Door', cursive; 
-	font-size: 9px;
+	font-size: 13px;
 
 }
 
@@ -283,9 +283,9 @@ h4,
 h5,
 h6 {
 	clear: right; 
-        font-weight: 900;
+        font-weight: 1100;
         font-family: 'The Girl Next Door', cursive;
-        color: white;
+        color: black;
 }
 
 p {
@@ -382,7 +382,7 @@ hr {
 
 ul,
 ol {
-	margin: 0 0 1.5em 3em;
+	margin: 0 0 1.5em 2em;
 }
 
 ul {
@@ -497,17 +497,20 @@ textarea {
 5.1 Links
 --------------------------------------------------------------*/
 a {
-	color: #FFDDAA;
+    text-decoration: none;	
+    color: #000;
+    color: hsl(0, 0%, 0%);    
 }
 
 a:visited {
-	color: purple;
+    color: #333;
+    color: hsl(0, 0%, 20%);
 }
 
 a:hover,
 a:focus,
-a:active {
-	color: midnightblue;
+a:active { 
+    text-decoration: underline; 
 }
 
 a:focus {
@@ -528,8 +531,9 @@ a:active {
 	width: 100%;
 	display: block;
 	clear: both;
-	font-family: 'The Girl Next Door', sans-serif;
-	background: #FFAAAA;
+	font-family: 'The Girl Next Door', cursive;
+	text-transform: uppercase;
+	background: #FF9999;
 	
 }
 
@@ -546,12 +550,13 @@ a:active {
 
 .main-navigation a {
 	display: block;
-	padding: 1.3em 1em; 
-	font-size: 10px;
+	padding: 0.8em 0.8em; 
+	font-size: 14px;
 	font-size: 1.0rem; 
 	text-decoration: none;
 	line-height: 1em;
 	color: white;
+	color: hsl(0, 0%, 100%);
 	
 }
 
@@ -562,7 +567,7 @@ a:active {
 	display: none;
 	float: left;
 	padding: 0;
-	background: black;
+	background: #FF9999;
 	
 }
 
@@ -817,21 +822,23 @@ input[type="search"] {
 .search-box-wrapper {
 	z-index: 2;
 	width: 100%
+	display: none;
 }
 
 .search-box {
-	padding: 1em;
-	background: #4d4d4d;
+	padding: 0.7em;
+	background: #FF9999;
 }
 
 .search-box .search-field {
 	max-width: 362px;
 	float: right;
-	padding: 1rem 2rem 1rem 4rem;
+	padding: 0.1em 0.5rem 0.1rem 2rem;
 	font-size: 13px;
 	font-size: 2rem;
 	background-color: #fff;
 	border: 0;
+	font-family: 'The Girl Next Door', cursive;
 }
 
 .error404 .search-submit,
