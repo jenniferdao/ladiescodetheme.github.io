@@ -570,7 +570,7 @@ a:active {
 .main-navigation .current_page_parent .current_page_item > a {
     color: #fff;
     color: hsl(0, 0%, 100%);
-    background: #CCCCFF;
+    background: #e5dcef;
 } 
     
 /* Small menu. */
@@ -830,7 +830,6 @@ X.X Header
         margin-right: 0;
     }
 }
-
 
 input[type="search"] {
     box-sizing: border-box;
@@ -1103,8 +1102,6 @@ object {
 }
 
 
-
-
 /*--------------------------------------------------------------
  13.0 Footer
 --------------------------------------------------------------*/
@@ -1112,8 +1109,8 @@ object {
 .site-footer {
     padding: 0.6em;
     font-family: 'The Girl Next Door', cursive;;
-    font-size: 14px;
-    font-size: 1.4rem;
+    font-size: 13px;
+    font-size: 1.3rem;
     color: #fff;
     color: hsl(0, 0%, 100%);
     background: #FF9999;
