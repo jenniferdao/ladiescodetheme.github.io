@@ -526,7 +526,7 @@ a:active {
     display: none;
     float: left;
     padding: 0;
-    background: #FF9999;
+    background: #FF6666;
 }
 .main-navigation ul ul ul {
     left: 100%;
@@ -546,7 +546,7 @@ a:active {
 .main-navigation ul ul :hover > a {
 }
 .main-navigation ul ul a:hover {
-    background: #FF6666;
+    background: #FFCCCC;
 
 }
 .main-navigation ul li:hover > ul {
@@ -562,9 +562,8 @@ a:active {
 }
 
 .main-navigation .current_page_ancestor {
-    background: #CCCCFF;
+    background: #FFCCCC;
     background: hsl(0, 0%, 30%);
-}
 
 .main-navigation ul ul .current_page_parent,
 .main-navigation .current_page_parent .current_page_item > a {
@@ -614,11 +613,8 @@ a:active {
 }
 
 .menu-social li a[href*="facebook.com"]::before { content: '\f09a'; }
-
 .menu-social li a[href*="twitter.com"]::before { content: '\f099'; }
-
 .menu-social li a[href*="instagram.com"]::before { content: '\f16d'; }
-
 
 @media screen and (max-width: 600px) {
     #menu-social ul {
@@ -876,8 +872,6 @@ input[type="search"] {
         border: none;
     }
 }
-             
-
 
 /*--------------------------------------------------------------
 9.0 Widgets
@@ -1081,10 +1075,6 @@ object {
 	max-width: 20%;
 }
 
-.gallery-columns-6 .gallery-item {
-	max-width: 16.66%;
-}
-
 .gallery-columns-7 .gallery-item {
 	max-width: 14.28%;
 }
@@ -1108,7 +1098,7 @@ object {
 
 .site-footer {
     padding: 0.6em;
-    font-family: 'The Girl Next Door', cursive;;
+    font-family: 'The Girl Next Door', cursive;
     font-size: 13px;
     font-size: 1.3rem;
     color: #fff;
@@ -1116,7 +1106,6 @@ object {
     background: #FF9999;
 
 }
-
 .site-footer a {
     color: #fff;
     color: hsl(0, 0%, 100%);
@@ -1125,6 +1114,5 @@ object {
 .site-info { 
     text-align: center; 
 }
-
 
 
