@@ -20,6 +20,7 @@ function testimonials_widgets() {
 
 /*
  * Below is defined as the widget class, it will be applied to all classes with the same name.
+ * The class testimonials_widget will results in any changes that are followed by the exact class name.
  */
 class testimonials_widget extends WP_Widget {
 	/* ---------------------------- */
@@ -119,7 +120,6 @@ class testimonials_widget extends WP_Widget {
         if($instance['random_order'])
         	$random_order_checked = ' checked="checked"';
 
-		
 		
 		
 		// This displays the minimum height that the testimonials will be displayed in
